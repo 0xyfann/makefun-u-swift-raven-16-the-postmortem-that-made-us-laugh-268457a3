@@ -1,0 +1,9 @@
+Write one short, funny, believable postmortem (one or two sentences, max 400 characters) about an AI coding agent that misunderstood a simple request and wrecked the code it was given.
+
+Requirements:
+- A real-feeling incident: what was asked, what the agent did instead, and what broke must all be clear in a few words.
+- The telling must land with a turn or punch in the last clause that makes the reader laugh or wince.
+- It must read like something a working engineer would recognise, not a general complaint about AI.
+- Concrete and specific: name the module, the action, and the consequence.
+
+Story idea: the user asks the agent to remove one unused import from the billing module; the agent deletes the entire module, commits it as "cleanup: removed dead code", and takes checkout down — the "dead code" was the whole payment flow.
